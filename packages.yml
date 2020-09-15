@@ -1,5 +1,3 @@
 packages:
-  - git: "https://github.com/RedPillAnalytics/dbt_hubspot_source.git"
+  - git: "https://github.com/RedPillAnalytics/dbt_hubspot.git"
     revision: v0.1.1
-
-  # - local: /Users/stewartbryson/Source/dbt_hubspot_source
