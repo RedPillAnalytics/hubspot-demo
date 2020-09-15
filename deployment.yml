@@ -1,0 +1,10 @@
+jobs:
+ - name: hourly
+   schedule: 0 * * * *
+   steps:
+     # - name: Load dependencies
+     #   command: dbt deps
+     - name: Run models
+       command: dbt run -m +hubspot__deal
+     - name: Test models
+       command: dbt test -m +hubspot__deal

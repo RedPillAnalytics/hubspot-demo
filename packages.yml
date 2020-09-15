@@ -1,0 +1,3 @@
+packages:
+  - package: fivetran/hubspot
+    version: 0.1.0
