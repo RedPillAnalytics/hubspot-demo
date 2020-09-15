@@ -5,6 +5,6 @@ jobs:
      - name: Load dependencies
        command: dbt deps
      - name: Run models
-       command: dbt run -m +hubspot__deal
+       command: dbt run
      - name: Test models
-       command: dbt test -m +hubspot__deal
+       command: dbt test
